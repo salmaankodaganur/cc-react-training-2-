@@ -1,0 +1,80 @@
+.head{
+    background-color: rgb(240, 143, 240);
+    padding: 20px;
+    text-align: center;
+}
+body {
+    margin: 0%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+.topnav a {
+    float: right;
+    display: block;
+    color: #f15757;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: black;
+  }
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#sidebar{
+    position: absolute;
+    width: 17%;
+    height: 100%;
+    left: -18%;
+    background-color: black;
+}
+#sidebar li{
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+.toggle-btn{
+    position: absolute;
+    left: 105%;
+    top: 15%;
+
+}
+.toggle-btn span{
+    display: block;
+    background-color: rgb(16, 218, 76);
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+#sidebar.active{
+    left: 0%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    background-color: rgb(25, 131, 218);
+    color: white;
+    text-align: center;
+  }
+  .hamburger{
+      padding-top: 13px;
+      padding-left: 22%;
+  }
+  .youtube{
+      padding-left: 22%;
+      padding-top: 30px;
+  }
+  .map{
+      padding-left: 22%;
+      padding-top: 30px;
+  }
